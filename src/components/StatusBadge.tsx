@@ -38,7 +38,7 @@ export function trainPriorityTone(priority: string): Tone {
   return priority === 'HIGH' ? 'warning' : 'neutral'
 }
 
-/** DCI (0-100, from the XGBoost model) -> a CRITICAL/HIGH/MEDIUM/LOW label. */
+/** DCI (0-100, from the priority model) -> a CRITICAL/HIGH/MEDIUM/LOW label. */
 export function dciToPriority(dci: number): 'CRITICAL' | 'HIGH' | 'MEDIUM' | 'LOW' {
   if (dci >= 70) return 'CRITICAL'
   if (dci >= 50) return 'HIGH'

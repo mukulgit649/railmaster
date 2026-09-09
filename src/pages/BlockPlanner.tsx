@@ -16,7 +16,7 @@ const LOADING_STEPS = [
   { label: 'Checking crew availability...', done: () => '✓ Resources checked' },
   { label: 'Checking operational constraints...', done: () => '✓ Constraints checked' },
   { label: 'Running maintenance prioritization...', done: () => '✓ Priority scores generated' },
-  { label: 'Running block optimization...', done: () => '✓ OR-Tools optimization complete' },
+  { label: 'Running block optimization...', done: () => '✓ Block optimization complete' },
   { label: 'Checking conflicts...', done: () => '✓ Conflict analysis complete' },
 ]
 

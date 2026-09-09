@@ -2,10 +2,11 @@ node_modules/
 dist/
 tsconfig.tsbuildinfo
 
-backend/.venv/
-backend/**/__pycache__/
-backend/**/*.pyc
+.venv/
+**/__pycache__/
+**/*.pyc
 
 .env
 .env.local
 *.log
+.vercel

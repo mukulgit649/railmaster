@@ -35,7 +35,7 @@ export default function MaintenanceDetail({ job, onClose }: { job: MaintenanceJo
             <div className="text-[11px] font-semibold uppercase text-gray-500 mb-1">ML Priority Score</div>
             <div className="text-2xl font-bold text-gray-900">{job.dci} / 100</div>
             <div className="text-xs text-gray-500 mt-0.5">
-              DCI computed by the XGBoost priority model from asset condition, overdue days, traffic and
+              DCI computed by the priority model from asset condition, overdue days, traffic and
               failure history.
             </div>
           </div>
