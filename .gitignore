@@ -1,0 +1,11 @@
+node_modules/
+dist/
+tsconfig.tsbuildinfo
+
+backend/.venv/
+backend/**/__pycache__/
+backend/**/*.pyc
+
+.env
+.env.local
+*.log
